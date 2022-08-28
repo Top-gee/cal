@@ -1,0 +1,31 @@
+body{
+    background-image: linear-gradient(white, rebeccapurple);
+    
+}
+input{
+    width: 35%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(56, 48, 48);
+    color: white;
+    font-size: 1.85rem;
+    
+}
+table{
+    width: 37%;
+    height: 34rem;
+    padding: 1rem .5rem;
+    outline: none;
+    /* change color later */
+    
+
+}
+td{
+    background-color: rebeccapurple;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}

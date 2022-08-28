@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <center>
+            <input readonly type="text">
+            <table>
+                <tr>
+                    <td id="clearAll">C</td>
+                    <td id="clear"><</td>
+                    <td onclick="insert('/')">/</td>
+                    <td onclick="insert('*')">X</td>
+                </tr>
+                <tr>
+                    <td onclick="insert(7)">7</td>
+                    <td onclick="insert(8)">8</td>
+                    <td onclick="insert(9)">9</td>
+                    <td onclick="insert('-')">-</td>
+                </tr>
+                <tr>
+                    <td onclick="insert(4)">4</td>
+                    <td onclick="insert(5)">5</td>
+                    <td onclick="insert(6)">6</td>
+                    <td onclick="insert('+')">+</td>
+                </tr>
+                <tr>
+                    <td onclick="insert(1)">1</td>
+                    <td onclick="insert(2)">2</td>
+                    <td onclick="insert(3)">3</td>
+                    <td id="evaluate">=</td>
+                </tr>
+                <tr>
+                    <td onclick="insert(0)">0</td>
+                    <td onclick="insert('.')">.</td>
+                    <td id="sqrt">sqrt</td>
+                    <td id="sqr">sqr</td>
+                </tr>
+                <tr>
+                    <td id="sin">sin</td>
+                    <td id="cos">cos</td>
+                    <td id="tan">tan</td>
+                </tr>
+            </table>
+        </center>
+
+    </div>
+</body>
+<script src="jQuery.js"></script>
+<script src="script.js"></script>
+
+</html>
